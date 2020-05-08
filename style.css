@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Pacifico&display=swap');
+body{
+    background: #333b6b;
+}
+.countdownContainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    background: #ddd;
+    border: 1px solid #999;
+    padding: 10px;
+    box-shadow: 0 0 5px 3px #ccc;
+}
+.info{
+    font-size: 50px;
+    font-family: 'Orbitron', sans-serif;
+}.info1{
+    font-size: 15px;
+    font-family: 'Pacifico', cursive;
+}
