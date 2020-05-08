@@ -21,3 +21,10 @@ body{
     font-size: 15px;
     font-family: 'Pacifico', cursive;
 }
+p{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    font-family: 'Pacifico', cursive;
+}
