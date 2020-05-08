@@ -23,15 +23,17 @@ function countDown(){
     if(m < 10){
         m = '0' + m;
     }
+
     if(s < 10){
         s = '0' + s;
     }
 
     document.getElementById('days').textContent = d;
-    document.getElementById('days').innerText = d ;
+    document.getElementById('days').innerText = d + ":"
+;
     
-    document.getElementById('hours').innerText = h ;
-    document.getElementById('minutes').innerText = m;
+    document.getElementById('hours').innerText = h + ":" ;
+    document.getElementById('minutes').innerText = m + ":";
     document.getElementById('seconds').textContent = s;
 
     setTimeout(countDown, 1000);
