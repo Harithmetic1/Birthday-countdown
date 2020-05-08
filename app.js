@@ -1,6 +1,6 @@
 function countDown(){
     let now = new Date();
-    let eventDate = new Date(2020, 4, 9);
+    let eventDate = new Date(2021, 4, 9);
 
     let currentTime = now.getTime();
     let eventTime = eventDate.getTime();
